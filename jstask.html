@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+<style>
+  .btn1{
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    color: white;
+    background: #74a84a;
+
+  }
+
+  .btn1:hover{
+    background: #2c541d;
+  }
+
+  .btn2{
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    border: 0px;
+    background-color: white;
+    color: #2563eb;  
+    }
+
+    .btn2:hover{
+      background-color: #2563eb;
+      color: white !important;
+    }
+
+    .clr{
+      color: #2c541d;
+    }
+
+    .bdr{
+      box-shadow: 0px 1px 5px lightgrey;
+    }
+
+</style>
+
+<script>
+  $(document).ready(function(){
+  $(".button1").click(function(){
+    $(".h1").css("color","#6300e2");
+    $(".b1").css("background-color","#8e43f0");
+  });
+});
+
+$(document).ready(function(){
+  $(".button2").click(function(){
+    $(".h1").css("color","#d90700");
+    $(".b1").css("background-color","#ef4d48");
+  });
+});
+
+$(document).ready(function(){
+  $(".button3").click(function(){
+    $(".h1").css("color","#ff0099");
+    $(".b1").css("background-color","#ff42b3");
+  });
+});
+
+$(document).ready(function(){
+  $(".button4").click(function(){
+    $(".h1").css("color","#fa036b");
+    $(".b1").css("background-color","#ff6a97");
+  });
+});
+
+$(document).ready(function(){
+  $(".button5").click(function(){
+    $(".h1").css("color","#ff5100");
+    $(".b1").css("background-color","#ff7a3d");
+  });
+});
+
+$(document).ready(function(){
+  $(".button6").click(function(){
+    $(".h1").css("color","#ffb100");
+    $(".b1").css("background-color","#f9c349");
+  });
+});
+
+$(document).ready(function(){
+  $(".button7").click(function(){
+    $(".h1").css("color","#00ac97");
+    $(".b1").css("background-color","#30c7b5");
+  });
+});
+
+$(document).ready(function(){
+  $(".button8").click(function(){
+    $(".h1").css("color","#06752e");
+    $(".b1").css("background-color","#1bae70");
+  });
+});
+
+$(document).ready(function(){
+  $(".button9").click(function(){
+    $(".h1").css("color","#08acf2");
+    $(".b1").css("background-color","#2fc1ff");
+  });
+});
+
+$(document).ready(function(){
+  $(".button10").click(function(){
+    $(".h1").css("color","#084af3");
+    $(".b1").css("background-color","#4175fc");
+  });
+});
+
+$(document).ready(function(){
+  $(".default").click(function(){
+    $(".h1").css("color","#2c541d");
+    $(".b1").css("background-color","#74a84a");
+  });
+});
+
+// font-family
+
+$(document).ready(function(){
+  $(".btnn1").click(function(){
+    $(".ff1").css("font-family","Helvetica");
+  });
+});
+
+$(document).ready(function(){
+  $(".btnn2").click(function(){
+    $(".ff1").css("font-family","Courier New");
+  });
+});
+
+$(document).ready(function(){
+  $(".btnn3").click(function(){
+    $(".ff1").css("font-family","Verdana");
+  });
+});
+
+$(document).ready(function(){
+  $(".btnn4").click(function(){
+    $(".ff1").css("font-family","Garamond");
+  });
+});
+
+$(document).ready(function(){
+  $(".btnn5").click(function(){
+    $(".ff1").css("font-family","Impact");
+  });
+});
+
+$(document).ready(function(){
+  $(".btnn6").click(function(){
+    $(".ff1").css("font-family","Arial Black");
+  });
+});
+
+$(document).ready(function(){
+  $(".btnn7").click(function(){
+    $(".ff1").css("font-family","Monospace");
+  });
+});
+
+$(document).ready(function(){
+  $(".btnn8").click(function(){
+    $(".ff1").css("font-family","TaHoma");
+  });
+});
+
+</script>
+
+</head>
+<body>
+
+    <button class="btn2" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+      <i class="fa-solid fa-palette ms-2"></i>
+      <span class="ms-2">Customize</span>
+    </button>
+
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header bdr p-2">
+          <p class="offcanvas-title p-2">PLANET EARTH</p>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p class="p-2">Use the template as-is or try different colors and fonts from the options below.</p>
+          <div class="container p-2">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="d-inline">Try Other Colors</p>
+              </div>
+              <div class="col-md-6">
+                <p class="d-inline ms-5 default">Default</p>
+              </div>
+              <div class="col-md-12 border p-2 mt-3 default">
+                <div class="row">
+                <div class="col-md-6">
+                <span>DEFAULT COLORS</span>
+                </div>
+                <div class="col-md-6 d-flex justify-content-around">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #74a84a;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #2c541d;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              </div>
+              </div>
+
+              <div class="container-fluid p-0">
+                <div class="d-flex justify-content-between">
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button1">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #8e43f0;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #6300e2;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button2">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #ef4d48;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #d90700;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              </div>
+              </div>
+
+              <div class="container-fluid p-0">
+                <div class="d-flex justify-content-between">
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button3">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #ff42b3;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #ff0099;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button4">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #ff6a97;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #fa036b;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              </div>
+              </div>
+
+              <div class="container-fluid p-0">
+                <div class="d-flex justify-content-between">
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button5">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #ff7a3d;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #ff5100;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button6">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f9c349;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #ffb100;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              </div>
+              </div>
+
+              <div class="container-fluid p-0">
+                <div class="d-flex justify-content-between">
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button7">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #30c7b5;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #00ac97;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button8">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #1bae70;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #06752e;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              </div>
+              </div>
+
+              <div class="container-fluid p-0">
+                <div class="d-flex justify-content-between">
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button9">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #2fc1ff;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #08acf2;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+              <div class="col-md-5 border mt-3 d-flex justify-content-around p-2 button10">
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #4175fc;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #084af3;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: black;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: grey;border: 0px;"></button>
+                <button style="height: 16px;width: 16px;border-radius: 100%;background: #f7f3f5;border: 0px;"></button>
+              </div>
+            </div>
+          </div>
+          <hr class="my-4">
+          </div>
+          </div>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p>Try Other Fonts</p>
+              </div>
+              <div class="col-md-6">
+                <p class="ms-5">Default</p>
+              </div>
+              <div class="col-md-12 border text-center p-2">
+                <p class="m-0">Default Font</p>
+              </div>
+              <div class="col-md-12 p-0 text-center mt-3">
+                <div class="d-flex justify-content-between">
+                  <div class="col-md-2 border p-2 btnn1" style="font-family: Helvetica;">Aa</div>
+                  <div class="col-md-2 border p-2 btnn2" style="font-family: Courier New;">Aa</div>
+                  <div class="col-md-2 border p-2 btnn3" style="font-family: Verdana;">Aa</div>
+                  <div class="col-md-2 border p-2 btnn4" style="font-family: Garamond;">Aa</div>
+                </div>
+              </div>
+
+              <div class="col-md-12 p-0 text-center mt-3">
+                <div class="d-flex justify-content-between">
+                  <div class="col-md-2 border p-2 btnn5" style="font-family: Impact;">Aa</div>
+                  <div class="col-md-2 border p-2 btnn6" style="font-family: Arial;">Aa</div>
+                  <div class="col-md-2 border p-2 btnn7" style="font-family: Monospace;">Aa</div>
+                  <div class="col-md-2 border p-2 btnn8" style="font-family: TaHoma;">Aa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="container-fluid" style="background-image: url(images/About-banner.jpg);background-position: center;background-size: cover;height: 450px;">
+        <div class="row">
+          <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+              <a class="navbar-brand p-3" href=""><img src="images/Logo-96x19.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item px-3 ff1">
+                    <a class="nav-link" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item px-3 ff1">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item px-3 ff1">
+                    <a class="nav-link" href="#">SERVICES</a>
+                  </li>
+                  <li class="nav-item pe-5 px-3 ff1">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>    
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="col-md-12 pt-5 d-flex justify-content-center">
+            <h1 class="display-1 clr h1 ff1">WHO ARE WE?</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 p-3">
+            <img src="images/Our-Mission-min.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-6 p-5">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="ff1">OUR MISSION</h2>
+              </div>
+              <div class="col-md-12">
+                <p class="ff1">Hello, my name is Tyler Moore and with the help of many people I made this template. I made it so it is super easy to update and so that it flows perfectly with my tutorials. Lots of love and hundreds of hours went into making it. I hope you love it as much as I do.</p>
+              </div>
+              <div class="col-md-12">
+                <p class="ff1">I wish you the best of luck with your business, enjoy the adventure.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-5" style="background-image: url(images/Talk-to-us.jpg);background-position: center;background-size: cover;">
+        <div class="d-flex justify-content-center text-center p-5">
+          <div class="col-md-6">
+            <h1 class="clr h1 ff1">TALK TO US</h1>
+            <p class="ff1">Have any questions? We are always open to talk about your business, new projects, creative opportunities and how we can help you.</p>
+            <button class="btn1 b1">GET IN TOUCH</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid text-center p-3">
+        <div class="d-flex justify-content-between">
+          <div class="col-md-4">
+                <p class="ff1 d-inline ms-3">HOME</p>
+                <p class="ff1 d-inline ms-3">ABOUT</p>
+                <p class="ff1 d-inline ms-3">SERVICES</p>
+                <p class="ff1 d-inline ms-3">CONTACT</p>
+          </div>
+          <div class="col-md-3">
+            <img src="images/Logo-96x19.png" alt="">
+          </div>
+          <div class="col-md-3 ms-5">
+            <p class="ff1">©2022 Earth. All right reserved.</p>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
